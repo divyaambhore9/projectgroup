@@ -1,0 +1,30 @@
+main{
+    height: 50vh;
+    width: 80vw;
+    background-color: aqua;
+}
+ul li{
+    float: left;
+    
+    list-style:none;
+    margin: 10px;
+}
+a{
+    text-decoration:none ;
+    color: white;
+}
+ul li :hover{
+    background-color: aqua;
+    color: rgb(145, 24, 99);
+
+}
+ul li ul {
+    display: none;
+}
+li :hover> ul{
+    display: block;
+    position: absolute;
+}
+ul li :hover > ul li{
+    display: block;
+}
