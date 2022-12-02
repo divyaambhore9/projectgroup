@@ -12,6 +12,7 @@ main{
 }
 header{
    flex-grow: 3;
+   border-bottom: 15px solid white;
 
 }
 section{
