@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    flex-grow: 1;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    flex-grow: 1;
+   
+    background-color: rgb(208, 167, 91);
+    
+}
+.menu{
+    flex-grow: 5;
+    background-color: rgb(29, 193, 54);
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    flex-grow: 2;
+    background-color: aliceblue;
+}
+.two{
+    flex-grow: 3;
+}
+section{
+    flex-grow: 6;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.o{
+    flex-grow: 2;
+    background-color: aliceblue;
+}
+.t{
+    flex-grow: 2;
+    background-color: rgb(137, 34, 34);
+}
+.tr{
+    flex-grow: 2;
+
+}
+
+footer{
+    flex-grow: 1;
+}

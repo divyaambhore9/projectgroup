@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    border-bottom: 30px solid blue;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    color: blue;
+    display: flex;
+}
+.logo h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    position: relative;
+    top: 40px;
+    font-style: italic;
+    margin-left: 20px;
+}
+.name{
+    height: 100%;
+    width: 80%;
+    color: blue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    position: relative;
+    top: 40px;
+    font-style: italic;
+
+}
+section{
+    height: 65%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    height: 100%;
+    width: 23%;
+    background-color: gray;
+    display: flex;
+}
+ul{
+    list-style: none;
+    position: relative;
+    top: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;   
+}
+.h{
+    position: relative;
+    left: -40px;
+}
+li{
+    margin: 10px;
+    font-size: 35px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 42, 75);
+}
+.h3{
+    display: flex;
+     height: 25px;
+     width: 100%;
+    background-color: blue;
+    position: relative;
+    top: 10px;
+    
+}
+article{
+    height: 100%;
+    width:55%;
+    background-color: white;
+    display: flex;
+}
+article .one{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    display: flex;
+    background-color: gray;
+    color: black;
+    z-index: 5;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-radius: 15px ;
+
+    
+    
+}
+article .two{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    color: black;
+    position: relative;
+    top: 150px;
+    right: 50px;
+    display: flex;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-radius: 15px ;
+
+
+    
+}
+
+nav{
+    height: 100%;
+    width: 25%;
+    background-color:white;
+    display: flex;
+}
+nav{
+    height: 400px;
+    width: 350px;
+    border: 15px solid blue ;
+    background-color: blue;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+nav form{
+    height: 400px;
+    width: 350px;
+     border-radius: 20px;
+    background-color:white ;
+}
+form h2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+.in{
+    position: relative;
+    left: 20px;
+    top: 50px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+input{
+    height: 25px;
+    width: 190px;
+    border-radius: 10px;
+}
+button{
+    height: 35px;
+    width: 170px;
+    color: white;
+    background-color:blue;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    cursor: pointer;
+}
+footer{
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+
+}
+footer h1{
+    font-size: 32px;
+    position: relative;
+    top: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+
