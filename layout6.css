@@ -46,9 +46,11 @@ section{
 }
 .t{
     flex-grow: 2;
+    background-color: rgb(137, 34, 34);
 }
-tr{
+.tr{
     flex-grow: 2;
+
 }
 
 footer{
