@@ -1,0 +1,35 @@
+ul li{
+    float: left;
+    color: brown;
+    background-color: pink;
+    height: 50px;
+    width: 140px;
+    font-size: 25px;
+    list-style: none;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid green;
+    
+    
+
+}
+ul li a{
+   text-decoration: none; 
+}
+ul li :hover{
+    background-color: plum;
+    color: mintcream;
+    
+}
+ul li >ul li{
+    float: left;
+    background-color:wheat;
+    display: none;
+    border: 2px solid red;
+
+
+}
+ul li:hover>ul li{
+    display: block;
+    margin-left: -40px;
+}
