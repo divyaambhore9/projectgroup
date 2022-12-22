@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+  }
+.main-container
+{
+    display: flex;
+}
+.container{
+display: flex;
+flex-direction: column;
+background-color: aqua;
+}
+.left-menu
+{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    flex-basis: 15%;
+    justify-content: center;
+    padding: 10px;
+
+}
+ h2,h4
+{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+.menu li a{
+    
+    text-decoration: none;
+    color: black;
+}
+.left-menu img{
+    height: 170px;
+
+}
+.header-menu
+{
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    flex-basis: 10%;
+    
+}
+.header-menu .header-menu1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* align-content: space-between; */
+    flex-basis: 10%;
+    background-color: brown;
+    padding: 20px;
+}
+.header-menu1 li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.header-submenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-basis: 10%; */
+    background-color: green;
+    
+
+}
+
+.header-submenu .header-menu2
+{
+    display: flex;
+    flex-direction: row;
+    /* align-content: space-between; */
+    /* flex-basis: 50%; */
+   background-color: burlywood;
+    padding: 10px;
+;
+}
+.header-submenu .header-menu3
+
+{
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 50%; */
+    background-color: blue;
+    /* height: fit-content; */
+    padding: 10px;
+    justify-content: flex-end;
+
+}
+input{
+    margin-left: 30px;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.content-info
+{
+    display: flex;
+    background-color: gold;
+    margin-top: 20px;
+     
+}
+.personal-info
+{
+   
+    border: 2px solid black ;
+}
